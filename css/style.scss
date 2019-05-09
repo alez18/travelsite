@@ -1,0 +1,60 @@
+.navigator{
+	background-color: rgba(0,0,0,0.18);
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2em;
+}
+
+.h-img{
+	background: url("../images/h-img.jpg"), black;
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.head-name{
+	width: 100%;
+	top: 80%;
+}
+
+.card{
+	height: 600px;
+	width: 80%;
+	background-color: white;
+	margin: 0 auto;
+}
+
+/**************/
+/***HELPERS***/
+/************/
+.absolute{
+	position: absolute;
+}
+
+.font-script{
+	font-family: 'Kaushan Script', cursive;
+}
+
+.full-height{
+  height: 100%;
+}
+
+.text-medium{
+	font-size: 4.5em;
+}
+
+.white-text{
+	color: white;
+}
+
+.relative{
+	position: relative;
+}
+
+.row.fx-row{
+	margin: auto 0;
+}
+
+.shadow-text{
+	text-shadow: 1px 1px 2px #9E9E9E, 0px 1px 2px #607D8B;
+}
