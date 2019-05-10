@@ -8,6 +8,7 @@
 		%link{rel:"stylesheet", href:"css/main.css"}
 		%link{rel:"stylesheet", href:"css/flexboxgrid.css"}		
 		%link{rel:"stylesheet", href:"css/style.css"}
+		%link{rel:"stylesheet", href:"css/animate.css"}
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Kaushan+Script|Satisfy"}
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=PT+Sans"}		
 				
@@ -16,26 +17,32 @@
 		%title Reservación, Tour y Viajes
 	%body
 		%header.h-img.relative.white-text
-			.head-name.absolute
+			.head-name.absolute.animated.fadeInDown.delay-2s.text-center
 				.row.fx-row
 					.col-xs-12
 						.box.box-head
 							%h1.font-script.text-medium.shadow-text
 								Sitio de viajes y destinos turisticos
-			.navigator
-				%ul.nav
-					%li.nav-item
-						%a.nav-link Inicio
-					%li.nav-item
-						%a.nav-link Viajes
-					%li.nav-item
-						%a.nav-link Reservaciones
-					%li.nav-item 
-						%a.nav-link Planes
-					%li.nav-item 
-						%a.nav-link Contacto
+			%nav.navigator#navigation.m-top.fixed
+				- menu = ['Inicio', 'Menú', 'Galería', 'Contacto', 'Cómo llegar']
+				%ul.nav.justify-content-end
+					- menu.each do |item|
+						%li.nav-item
+							%a.nav-link{}= item					
+			.col-xs
+				.box
+					%nav.navigator.hidden.fix-sticky.half-width
+						%ul.nav#sticky-navigation.white.bg-black
+							- menu.each do |item|
+								%li.nav-item
+									%a.nav-link{}= item
+						.site-name.half-width.text-right.bg-black
+							%span	SITIO
+
+
 		.container
 			.row.full-height
 				.col-xs-12
-					.card
-						%h2 HOLA
+					%h2 HOLA
+	%script{src:"js/main.js"}
+
