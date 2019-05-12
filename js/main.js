@@ -9,7 +9,7 @@
 		if(pinged) return;
 		sticky.classList.add("pined")
 		nav.classList.add("hidden")
-		sticky.parentNode.classList.remove("hidden")
+		sticky.classList.remove("hidden")
 		pinged = true;
 	}
 
@@ -17,7 +17,7 @@
 		if(!pinged) return
 		sticky.classList.remove("pined")
 		nav.classList.remove("hidden")
-		sticky.parentNode.classList.add("hidden")
+		sticky.classList.add("hidden")
 		pinged = false
 	}
 
