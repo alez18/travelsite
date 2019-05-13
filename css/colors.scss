@@ -1,0 +1,24 @@
+$colors: (
+	red: #FC4349,
+	pink: #E4004F,
+	blue: #41768e,
+	grey: #D7DADB,
+	dark-grey: #454549,
+	light-blue: #99c9b1,
+	white: #fff,
+	indigo: #2F33AC,
+	black: #000,
+	brown: #41393e,
+	blond: #f2f2c6,
+	baby-blue: #a1d2ed,
+	lemon: #fff5ce
+);
+
+@each $color-name,$color in $colors{
+	.#{$color-name}-bg{
+		background-color: $color;
+	}
+	.#{$color-name}-text{
+		color: $color;
+	}
+}	

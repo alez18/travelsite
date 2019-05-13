@@ -1,3 +1,5 @@
+@import 'colors.scss';
+
 .navigator{
 	background-color: rgba(0,0,0,0.18);
 	font-family: 'PT Sans', sans-serif;
@@ -19,16 +21,33 @@
 	top: 45%;
 }
 
-.card{
+.img-box{
+	img{
+		padding-top: 15px;
+	}
+}
+
+.card-announcement{
 	height: 600px;
-	width: 80%;
+	width: 60%;
 	background-color: white;
 	margin: 0 auto;
+	margin-top: -25px;
+	box-shadow: 1px 1px 2px #eee, 0px 2px 3px #000;
 }
 
 .site-name{
 	padding-left: 3.5em;
 
+}
+
+.title-travel{
+	padding: 0.5em;
+	font-size: 1.2em;	
+}
+
+.text-travel{
+	padding: 1em 1.5em;
 }
 
 .pined{
@@ -47,12 +66,18 @@
 .bg-black{
 	background-color: black;
 }
+
+.border-semi{
+	border-radius: 10px 10px 0px 0px;
+}
+
 .fixed{
 	position: fixed;
 }
 
 .fix-sticky{
 	margin: 0 -12px;
+	z-index: 5;
 
 }
 
@@ -61,12 +86,13 @@
 }
 
 .full-height{
-  height: 1200px;
+  height: 100%;
 }
 
 .full-width{
   width: 100%;
 }
+
 
 .half-width{
 	width: 50%;
@@ -84,6 +110,9 @@
 	padding: 0;
 }
 
+.no-margin{
+	margin: 0;
+}
 .text-medium{
 	font-size: 4.5em;
 }
@@ -109,4 +138,8 @@
 
 .shadow-text{
 	text-shadow: -1px -3px 6px #000;
+}
+
+.top-space{
+	padding-top: 0.5em;
 }
