@@ -1,184 +1,272 @@
 .red-bg {
-  background-color: #FC4349; }
+  background-color: #FC4349;
+}
 
 .red-text {
-  color: #FC4349; }
+  color: #FC4349;
+}
 
 .pink-bg {
-  background-color: #E4004F; }
+  background-color: #E4004F;
+}
 
 .pink-text {
-  color: #E4004F; }
+  color: #E4004F;
+}
 
 .blue-bg {
-  background-color: #41768e; }
+  background-color: #41768e;
+}
 
 .blue-text {
-  color: #41768e; }
+  color: #41768e;
+}
 
 .grey-bg {
-  background-color: #D7DADB; }
+  background-color: #D7DADB;
+}
 
 .grey-text {
-  color: #D7DADB; }
+  color: #D7DADB;
+}
 
 .dark-grey-bg {
-  background-color: #454549; }
+  background-color: #454549;
+}
 
 .dark-grey-text {
-  color: #454549; }
+  color: #454549;
+}
 
 .light-blue-bg {
-  background-color: #99c9b1; }
+  background-color: #99c9b1;
+}
 
 .light-blue-text {
-  color: #99c9b1; }
+  color: #99c9b1;
+}
 
 .white-bg {
-  background-color: #fff; }
+  background-color: #fff;
+}
 
 .white-text {
-  color: #fff; }
+  color: #fff;
+}
 
 .indigo-bg {
-  background-color: #2F33AC; }
+  background-color: #2F33AC;
+}
 
 .indigo-text {
-  color: #2F33AC; }
+  color: #2F33AC;
+}
 
 .black-bg {
-  background-color: #000; }
+  background-color: #000;
+}
 
 .black-text {
-  color: #000; }
+  color: #000;
+}
 
 .brown-bg {
-  background-color: #41393e; }
+  background-color: #41393e;
+}
 
 .brown-text {
-  color: #41393e; }
+  color: #41393e;
+}
 
 .blond-bg {
-  background-color: #f2f2c6; }
+  background-color: #f2f2c6;
+}
 
 .blond-text {
-  color: #f2f2c6; }
+  color: #f2f2c6;
+}
 
 .baby-blue-bg {
-  background-color: #a1d2ed; }
+  background-color: #a1d2ed;
+}
 
 .baby-blue-text {
-  color: #a1d2ed; }
+  color: #a1d2ed;
+}
 
 .lemon-bg {
-  background-color: #fff5ce; }
+  background-color: #fff5ce;
+}
 
 .lemon-text {
-  color: #fff5ce; }
+  color: #fff5ce;
+}
 
 .navigator {
   background-color: rgba(0, 0, 0, 0.18);
   font-family: 'PT Sans', sans-serif;
   font-size: 2em;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+}
+
+.nav-link:hover {
+  background-color: #f2f2c6;
+  cursor: pointer;
+  transition: all 500ms;
+  color: #000 !important;
+}
 
 .h-img {
   background: url("../images/h-img.jpg"), black;
   height: 90vh;
   width: 100%;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+}
 
 .head-name {
   width: 100%;
-  top: 45%; }
+  top: 45%;
+}
 
 .img-box img {
-  padding-top: 15px; }
+  padding-top: 15px;
+}
+
+.box-content {
+  background: rgba(0, 219, 255, 0.1);
+}
 
 .card-announcement {
-  height: 600px;
+  height: 100%;
   width: 60%;
-  background-color: white;
   margin: 0 auto;
-  margin-top: -25px;
-  box-shadow: 1px 1px 2px #eee, 0px 2px 3px #000; }
+  margin-top: -250px;
+  box-shadow: 1px 1px 2px #eee, 0px 2px 3px #000;
+}
+
+.control-images {
+  padding-right: 3em;
+  padding-bottom: 3em;
+}
+
+.control-images .bullet-travel {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background-color: #a2a2a2;
+  display: inline-block;
+  margin-top: 2em;
+  margin-right: 10px;
+  opacity: 0.4;
+  transition: all 0.4s;
+  cursor: pointer;
+}
 
 .site-name {
-  padding-left: 3.5em; }
+  padding-left: 3.5em;
+}
 
 .title-travel {
   padding: 0.5em;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+}
 
 .text-travel {
-  padding: 1em 1.5em; }
+  padding: 1em 1.5em;
+}
 
 .pined {
   position: fixed;
-  top: 0px; }
+  top: 0px;
+}
 
 /**************/
 /***HELPERS***/
 /************/
 .absolute {
-  position: absolute; }
+  position: absolute;
+}
 
 .bg-black {
-  background-color: black; }
+  background-color: black;
+}
 
 .border-semi {
-  border-radius: 10px 10px 0px 0px; }
+  border-radius: 10px 10px 0px 0px;
+}
 
 .fixed {
-  position: fixed; }
+  position: fixed;
+}
 
 .fix-sticky {
   margin: 0 -12px;
-  z-index: 5; }
+  z-index: 5;
+}
 
 .font-script {
-  font-family: 'Kaushan Script', cursive; }
+  font-family: 'Kaushan Script', cursive;
+}
 
 .full-height {
-  height: 100%; }
+  height: 100%;
+}
 
 .full-width {
-  width: 100%; }
+  width: 100%;
+}
 
 .half-width {
-  width: 50%; }
+  width: 50%;
+}
 
 .hidden {
-  display: none; }
+  display: none;
+}
 
 .m-top {
-  margin: 0; }
+  margin: 0;
+}
 
 .no-padding {
-  padding: 0; }
+  padding: 0;
+}
 
 .no-margin {
-  margin: 0; }
+  margin: 0;
+}
 
-.text-medium {
-  font-size: 4.5em; }
-
-.text-center {
-  text-align: center; }
-
-.white-text {
-  color: white; }
+.padding-large-y {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
 
 .relative {
-  position: relative; }
+  position: relative;
+}
 
 .row.fx-row {
-  margin: auto 0; }
+  margin: auto 0;
+}
 
 .shadow-text {
-  text-shadow: -1px -3px 6px #000; }
+  text-shadow: -1px -3px 6px #000;
+}
 
 .top-space {
-  padding-top: 0.5em; }
+  padding-top: 0.5em;
+}
+
+.text-medium {
+  font-size: 4.5em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}

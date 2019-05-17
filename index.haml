@@ -43,25 +43,35 @@
 								%li.nav-item
 									%a.nav-link{}= item
 					
-
-		.card-announcement.relative.border-semi.white-text
-			.title-travel.light-blue-bg.center-xs.middle-xs.border-semi
-				%p.no-margin Próxima Salida: 12 Mayo 2019
-			.title-travel-body.dark-grey-bg.full-height				
-				.h2-image.center-xs.middle-xs
-					%h2.no-margin.top-space Puebla
-				.img-box.middle-xs.center-xs
-					- gallery_photos.each do |image|
-						%img{src:"images/#{image}.jpg", width: "380", height: "320"}
-				.text-travel.text-justify
-					%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		.full-height.relative.red-bg{style:"height: 500px"}
-			%p HOLA DOS
+		.box-content
+			.card-announcement.relative.border-semi.white-text
+				.title-travel.light-blue-bg.center-xs.middle-xs.border-semi
+					%p.no-margin Próxima Salida: 12 Mayo 2019
+				.title-travel-body.dark-grey-bg.full-height				
+					.h2-image.center-xs.middle-xs
+						%h2.no-margin.top-space Puebla
+					.img-box.middle-xs.center-xs
+						- gallery_photos.each do |image|
+							%img{src:"images/#{image}.jpg", width: "380", height: "320"}
+					.text-travel.text-justify.padding-large-y
+						%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.					
+					.control-images.text-right
+						.bullet-travel
+						.bullet-travel
+						.bullet-travel
+		.full-height.relative.lemon-bg{style:"height: 500px"}
+			%h2 Paquetes
+			%p Cada uno de nuestros paquetes tienen la siguiente información: EFECTO DEIMAGEN SE LEVANTA Y SE VE EL PRECIO
+			%ul
+				%li	Seguro
+		.full-height
+			%h2 Transportes
+			%p Puntos de Salida/Encuentro. Automoviles. Reservación
 		
 	%script{src:"js/main.js"}
 

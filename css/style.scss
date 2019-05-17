@@ -8,6 +8,13 @@
 	z-index: 2;
 }
 
+.nav-link:hover{
+	background-color: #f2f2c6;
+	cursor: pointer;
+	transition: all 500ms;
+	color: #000 !important; 
+}
+
 .h-img{
 	background: url("../images/h-img.jpg"), black;
 	height: 90vh;
@@ -26,14 +33,34 @@
 		padding-top: 15px;
 	}
 }
+.box-content{
+	background: rgba(0, 219, 255, 0.1);
 
+}
 .card-announcement{
-	height: 600px;
+	height: 100%;
 	width: 60%;
-	background-color: white;
+	
 	margin: 0 auto;
-	margin-top: -25px;
+	margin-top: -250px;
 	box-shadow: 1px 1px 2px #eee, 0px 2px 3px #000;
+}
+
+.control-images{
+	padding-right: 3em;
+	padding-bottom: 3em;
+	.bullet-travel{
+		width: 1.5em;
+		height: 1.5em;
+		border-radius: 50%;
+		background-color: #a2a2a2;
+		display: inline-block;
+		margin-top: 2em;
+		margin-right: 10px; 
+		opacity: 0.4;
+		transition: all 0.4s;
+		cursor: pointer;
+	}
 }
 
 .site-name{
@@ -113,24 +140,15 @@
 .no-margin{
 	margin: 0;
 }
-.text-medium{
-	font-size: 4.5em;
-}
 
-.text-center{
-	text-align: center;
-}
-
-
-.white-text{
-	color: white;
+.padding-large-y{
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
 .relative{
 	position: relative;
 }
-
-
 
 .row.fx-row{
 	margin: auto 0;
@@ -142,4 +160,17 @@
 
 .top-space{
 	padding-top: 0.5em;
+}
+
+.text-medium{
+	font-size: 4.5em;
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+.white-text{
+	color: white;
 }
