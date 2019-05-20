@@ -11,7 +11,8 @@ $colors: (
 	brown: #41393e,
 	blond: #f2f2c6,
 	baby-blue: #a1d2ed,
-	lemon: #fff5ce
+	lemon: #fff5ce,
+	yellow: #edc48b
 );
 
 @each $color-name,$color in $colors{

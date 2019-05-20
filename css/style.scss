@@ -1,18 +1,18 @@
 @import 'colors.scss';
 
-.navigator{
-	background-color: rgba(0,0,0,0.18);
-	font-family: 'PT Sans', sans-serif;
-	font-size: 2em;
-	width: 100%;
-	z-index: 2;
+html,body{
+	height: 100%;
 }
 
-.nav-link:hover{
-	background-color: #f2f2c6;
-	cursor: pointer;
-	transition: all 500ms;
-	color: #000 !important; 
+.box-content{
+	background: rgba(0, 219, 255, 0.1);
+
+}
+
+.box-head{
+	p{
+		font-size: 2em;
+	}
 }
 
 .h-img{
@@ -23,44 +23,39 @@
 	background-position: center;
 }
 
-.head-name{
+.h-name{
 	width: 100%;
 	top: 45%;
 }
+
 
 .img-box{
 	img{
 		padding-top: 15px;
 	}
 }
-.box-content{
-	background: rgba(0, 219, 255, 0.1);
 
+.navigator{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2em;
+	width: 100%;
+	z-index: 2;
+	color: #fff;
 }
-.card-announcement{
-	height: 100%;
-	width: 60%;
+
+.nav-link:hover{
+	background-color: #f2f2c6;
+	cursor: pointer;
+	transition: all 500ms;
+	color: #000 !important; 
+}
+
+.next-travels{
 	
-	margin: 0 auto;
-	margin-top: -250px;
-	box-shadow: 1px 1px 2px #eee, 0px 2px 3px #000;
 }
-
-.control-images{
-	padding-right: 3em;
-	padding-bottom: 3em;
-	.bullet-travel{
-		width: 1.5em;
-		height: 1.5em;
-		border-radius: 50%;
-		background-color: #a2a2a2;
-		display: inline-block;
-		margin-top: 2em;
-		margin-right: 10px; 
-		opacity: 0.4;
-		transition: all 0.4s;
-		cursor: pointer;
-	}
+.pined{
+	position: fixed;
+	top: 0px;
 }
 
 .site-name{
@@ -73,104 +68,27 @@
 	font-size: 1.2em;	
 }
 
+.tableline{
+	height: 400px;
+	width: 100%;
+	margin: auto;
+	margin-top: -200px;
+}
 .text-travel{
 	padding: 1em 1.5em;
 }
 
-.pined{
-	position: fixed;
-	top: 0px;
+
+@media only screen and (min-width: 680px) and (max-width: 1200px){
+	.tableline{
+		width: 80%;
+	}
 }
 
 
-/**************/
-/***HELPERS***/
-/************/
-.absolute{
-	position: absolute;
+@media only screen and (min-width: 1200px){
+	.tableline{
+		width: 40%;
+	}
 }
 
-.bg-black{
-	background-color: black;
-}
-
-.border-semi{
-	border-radius: 10px 10px 0px 0px;
-}
-
-.fixed{
-	position: fixed;
-}
-
-.fix-sticky{
-	margin: 0 -12px;
-	z-index: 5;
-
-}
-
-.font-script{
-	font-family: 'Kaushan Script', cursive;
-}
-
-.full-height{
-  height: 100%;
-}
-
-.full-width{
-  width: 100%;
-}
-
-
-.half-width{
-	width: 50%;
-}
-
-.hidden {
-  display: none;
-}
-
-.m-top{
-	margin: 0;
-}
-
-.no-padding{
-	padding: 0;
-}
-
-.no-margin{
-	margin: 0;
-}
-
-.padding-large-y{
-	padding-top: 3em;
-	padding-bottom: 3em;
-}
-
-.relative{
-	position: relative;
-}
-
-.row.fx-row{
-	margin: auto 0;
-}
-
-.shadow-text{
-	text-shadow: -1px -3px 6px #000;
-}
-
-.top-space{
-	padding-top: 0.5em;
-}
-
-.text-medium{
-	font-size: 4.5em;
-}
-
-.text-center{
-	text-align: center;
-}
-
-
-.white-text{
-	color: white;
-}

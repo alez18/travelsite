@@ -1,0 +1,24 @@
+.card-announcement{
+	height: 100%;
+	width: 60%;	
+	margin: 0 auto;
+	margin-top: -250px;
+	box-shadow: 1px 1px 2px #eee, 0px 2px 3px #000;
+}
+
+.control-images{
+	padding-right: 3em;
+	padding-bottom: 3em;
+	.bullet-travel{
+		width: 1.5em;
+		height: 1.5em;
+		border-radius: 50%;
+		background-color: #a2a2a2;
+		display: inline-block;
+		margin-top: 2em;
+		margin-right: 10px; 
+		opacity: 0.4;
+		transition: all 0.4s;
+		cursor: pointer;
+	}
+}
