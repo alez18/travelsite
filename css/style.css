@@ -1,192 +1,145 @@
 .red-bg {
-  background-color: #FC4349;
-}
+  background-color: #FC4349; }
 
 .red-text {
-  color: #FC4349;
-}
+  color: #FC4349; }
 
 .pink-bg {
-  background-color: #E4004F;
-}
+  background-color: #E4004F; }
 
 .pink-text {
-  color: #E4004F;
-}
+  color: #E4004F; }
 
 .blue-bg {
-  background-color: #41768e;
-}
+  background-color: #41768e; }
 
 .blue-text {
-  color: #41768e;
-}
+  color: #41768e; }
 
 .grey-bg {
-  background-color: #D7DADB;
-}
+  background-color: #D7DADB; }
 
 .grey-text {
-  color: #D7DADB;
-}
+  color: #D7DADB; }
 
 .dark-grey-bg {
-  background-color: #454549;
-}
+  background-color: #454549; }
 
 .dark-grey-text {
-  color: #454549;
-}
+  color: #454549; }
 
 .light-blue-bg {
-  background-color: #99c9b1;
-}
+  background-color: #99c9b1; }
 
 .light-blue-text {
-  color: #99c9b1;
-}
+  color: #99c9b1; }
 
 .white-bg {
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 .white-text {
-  color: #fff;
-}
+  color: #fff; }
 
 .indigo-bg {
-  background-color: #2F33AC;
-}
+  background-color: #2F33AC; }
 
 .indigo-text {
-  color: #2F33AC;
-}
+  color: #2F33AC; }
 
 .black-bg {
-  background-color: #000;
-}
+  background-color: #000; }
 
 .black-text {
-  color: #000;
-}
+  color: #000; }
 
 .brown-bg {
-  background-color: #41393e;
-}
+  background-color: #41393e; }
 
 .brown-text {
-  color: #41393e;
-}
+  color: #41393e; }
 
 .blond-bg {
-  background-color: #f2f2c6;
-}
+  background-color: #f2f2c6; }
 
 .blond-text {
-  color: #f2f2c6;
-}
+  color: #f2f2c6; }
 
 .baby-blue-bg {
-  background-color: #a1d2ed;
-}
+  background-color: #a1d2ed; }
 
 .baby-blue-text {
-  color: #a1d2ed;
-}
+  color: #a1d2ed; }
 
 .lemon-bg {
-  background-color: #fff5ce;
-}
+  background-color: #fff5ce; }
 
 .lemon-text {
-  color: #fff5ce;
-}
+  color: #fff5ce; }
 
 .yellow-bg {
-  background-color: #edc48b;
-}
+  background-color: #edc48b; }
 
 .yellow-text {
-  color: #edc48b;
-}
+  color: #edc48b; }
 
 html, body {
-  height: 100%;
-}
+  height: 100%; }
 
 .box-content {
-  background: rgba(0, 219, 255, 0.1);
-}
+  background: rgba(0, 219, 255, 0.1); }
 
 .box-head p {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 .h-img {
-  background: url("../images/h-img.jpg"), black;
-  height: 90vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-}
+  height: 95vh;
+  width: 100%; }
 
 .h-name {
   width: 100%;
-  top: 45%;
-}
+  top: 45%; }
 
 .img-box img {
-  padding-top: 15px;
-}
+  padding-top: 15px; }
 
 .navigator {
   font-family: 'PT Sans', sans-serif;
-  font-size: 2em;
+  font-size: 1.3em;
   width: 100%;
   z-index: 2;
-  color: #fff;
-}
+  color: #454549;
+  text-decoration: underline; }
 
 .nav-link:hover {
   background-color: #f2f2c6;
   cursor: pointer;
   transition: all 500ms;
-  color: #000 !important;
-}
+  color: #000 !important; }
 
 .pined {
   position: fixed;
-  top: 0px;
-}
+  top: 0px; }
 
 .site-name {
-  padding-left: 3.5em;
-}
+  padding-left: 3.5em; }
 
 .title-travel {
   padding: 0.5em;
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
 .tableline {
   height: 400px;
   width: 100%;
   margin: auto;
-  margin-top: -200px;
-}
+  margin-top: -200px; }
 
 .text-travel {
-  padding: 1em 1.5em;
-}
+  padding: 1em 1.5em; }
 
 @media only screen and (min-width: 680px) and (max-width: 1200px) {
   .tableline {
-    width: 80%;
-  }
-}
+    width: 80%; } }
 
 @media only screen and (min-width: 1200px) {
   .tableline {
-    width: 40%;
-  }
-}
+    width: 40%; } }

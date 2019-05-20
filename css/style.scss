@@ -16,11 +16,10 @@ html,body{
 }
 
 .h-img{
-	background: url("../images/h-img.jpg"), black;
-	height: 90vh;
+	//background: url("../images/h-img1.jpg"), black;
+	height: 95vh;
 	width: 100%;
-	background-size: cover;
-	background-position: center;
+
 }
 
 .h-name{
@@ -37,10 +36,11 @@ html,body{
 
 .navigator{
 	font-family: 'PT Sans', sans-serif;
-	font-size: 2em;
+	font-size: 1.3em;
 	width: 100%;
 	z-index: 2;
-	color: #fff;
+	color: #454549;
+	text-decoration: underline;
 }
 
 .nav-link:hover{

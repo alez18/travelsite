@@ -50,9 +50,8 @@
   margin: 0;
 }
 
-.padding-large-y {
-  padding-top: 3em;
-  padding-bottom: 3em;
+.padding-h2 {
+  padding-top: 0.5em;
 }
 
 .relative {
@@ -68,7 +67,7 @@
 }
 
 .top-space {
-  padding-top: 0.5em;
+  margin-top: 3.5em !important;
 }
 
 .text-medium {

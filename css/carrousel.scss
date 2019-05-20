@@ -1,0 +1,48 @@
+.slider{	
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	.img-container{
+		white-space: nowrap;
+		position: relative;
+		transition: all 500ms;
+		left: 0;
+		height: 100%;
+		img{
+			width: 100%;
+			display: inline-block;
+			margin-right: -4px;
+			height: 100%;
+		}
+	}
+	.controls ul{
+		padding: 0px;
+		text-align: center;
+		position: absolute;
+		bottom: 1em;
+		margin: 0px;
+		width: 100%;
+		z-index: 5;
+		li{
+			list-style-type: none;
+			background-color: #444;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			margin-right: 5px;
+			display: inline-block;
+			cursor: pointer;
+			&.active{
+				background-color: #fff;				
+			}
+		}
+	}
+	
+}
+
+ 
+/*Para reestablecer valores de texto o algún elemento existente*/
+.slider .container *{
+	white-space: normal;
+}
+

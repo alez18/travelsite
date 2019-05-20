@@ -1,4 +1,5 @@
 - gallery_photos = ["travel1"]
+
 - menu = ['Inicio', 'Menú', 'Galería', 'Contacto', 'Cómo llegar']
 
 !!! 5
@@ -12,6 +13,7 @@
 		%link{rel:"stylesheet", href:"css/flexboxgrid.css"}		
 		%link{rel:"stylesheet", href:"css/style.css"}
 		%link{rel:"stylesheet", href:"css/common.css"}
+		%link{rel:"stylesheet", href:"css/carrousel.css"}
 		%link{rel:"stylesheet", href:"css/animate.css"}
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Kaushan+Script|Satisfy"}
 		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=PT+Sans"}								
@@ -36,24 +38,43 @@
 								%a.nav-link{}= item
 
 		%header.h-img.relative.white-text
+			.slider
+				.img-container
+					%img{src:"images/h-img1.jpg"}
+					%img{src:"images/h-img2.jpg"}
+					%img{src:"images/h-img3.jpg"}
+				.controls
+					%ul
 			.h-name.absolute.animated.fadeInDown.delay-1s.text-center
-				.box-head.shadow-text
+				.box-head.shadow-text					
 					%h1.font-script.text-medium
 						Sitio de viajes y destinos turisticos
 					%p Encuentra tu próximo destino y conoce nuevos lugares.
-		.full-height
-			.tableline.card
-				.next-travels.white-bg.text-center
-					%h2 Próximos destinos:
-				.travel-info.yellow-bg.full-height
-					.row
-						.col-xs-12.col-md-6
-							.box
-								IMAGEN
-						.col-xs-12.col-md-6
-							.box
-								CONTENIDO		
-	
+		.row.full-height.fx-row.center-xs.top-space
+			.col-xs-12.col-md-4.col-lg-3
+				.box
+					.card
+						%h2.padding-h2 Viaje 1
+						.card-body.text-justify
+							%p Hola esta es la descripción del próximo viaje que se realizará, debe ser muy breve para atraer a potenciales clientes.
+						%img{src:"images/h-img1_tn.jpg", height: "200px"}
+			.col-xs-12.col-md-4.col-lg-3
+				.box
+					.card
+						%h2.padding-h2 Viaje 2
+						.card-body.text-justify
+							%p Hola esta es la descripción del próximo viaje que se realizará, debe ser muy breve para atraer a potenciales clientes.
+						%img{src:"images/h-img2_tn.jpg", height: "200px"}
+			.col-xs-12.col-md-4.col-lg-3
+				.box
+					.card
+						%h2.padding-h2 Viaje 3
+						.card-body.text-justify
+							%p Hola esta es la descripción del próximo viaje que se realizará, debe ser muy breve para atraer a potenciales clientes.
+						%img{src:"images/h-img3_tn.jpg", height: "200px"}
+
 		
 	%script{src:"js/main.js"}
+	%script{src:"js/carrousel.js"}
+	
 
