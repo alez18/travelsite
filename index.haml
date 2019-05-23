@@ -53,25 +53,31 @@
 		.row.full-height.fx-row.center-xs.top-space
 			.col-xs-12.col-md-4.col-lg-3
 				.box
-					.card
+					.card.relative
 						%h2.padding-h2 Viaje 1
 						.card-body.text-justify
 							%p Hola esta es la descripción del próximo viaje que se realizará, debe ser muy breve para atraer a potenciales clientes.
-						%img{src:"images/h-img1_tn.jpg", height: "200px"}
+						.card-img								
+							%img{src:"images/h-img1_tn.jpg", height: "200px", class: 'img-hover'}
 			.col-xs-12.col-md-4.col-lg-3
 				.box
-					.card
+					.card.relative
 						%h2.padding-h2 Viaje 2
 						.card-body.text-justify
 							%p Hola esta es la descripción del próximo viaje que se realizará, debe ser muy breve para atraer a potenciales clientes.
-						%img{src:"images/h-img2_tn.jpg", height: "200px"}
+						.card-img	
+							%img{src:"images/h-img2_tn.jpg", height: "200px", class: 'img-hover'}
 			.col-xs-12.col-md-4.col-lg-3
 				.box
 					.card
 						%h2.padding-h2 Viaje 3
-						.card-body.text-justify
+						.card-body.text-justify						
 							%p Hola esta es la descripción del próximo viaje que se realizará, debe ser muy breve para atraer a potenciales clientes.
-						%img{src:"images/h-img3_tn.jpg", height: "200px"}
+						.card-img				
+							%img{src:"images/h-img3_tn.jpg", height: "200px"}
+			.box-travels.font-script
+				%h2 Expande tu rumbo, ve más allá de tus límites, explora y descubre nuevos lugares.
+		.full-height.black-bg
 
 		
 	%script{src:"js/main.js"}

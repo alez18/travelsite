@@ -19,7 +19,6 @@ html,body{
 	//background: url("../images/h-img1.jpg"), black;
 	height: 95vh;
 	width: 100%;
-
 }
 
 .h-name{
@@ -27,10 +26,9 @@ html,body{
 	top: 45%;
 }
 
-
-.img-box{
-	img{
-		padding-top: 15px;
+.card-img{			
+	img{		
+		width: 100%;
 	}
 }
 
@@ -91,4 +89,5 @@ html,body{
 		width: 40%;
 	}
 }
+
 

@@ -2,82 +2,63 @@
 /***HELPERS***/
 /************/
 .absolute {
-  position: absolute;
-}
+  position: absolute; }
 
 .bg-black {
-  background-color: black;
-}
+  background-color: black; }
 
 .border-semi {
-  border-radius: 10px 10px 0px 0px;
-}
+  border-radius: 10px 10px 0px 0px; }
 
 .fixed {
-  position: fixed;
-}
+  position: fixed; }
 
 .fix-sticky {
   margin: 0 -12px;
-  z-index: 5;
-}
+  z-index: 5; }
 
 .font-script {
-  font-family: 'Kaushan Script', cursive;
-}
+  font-family: 'Kaushan Script', cursive; }
 
 .full-height {
-  height: 100%;
-}
+  height: 100%; }
 
 .full-width {
-  width: 100%;
-}
+  width: 100%; }
 
 .hidden {
-  display: none;
-}
+  display: none; }
 
 .no-margin-top {
-  margin: 0;
-}
+  margin: 0; }
 
 .no-padding {
-  padding: 0;
-}
+  padding: 0; }
 
 .no-margin {
-  margin: 0;
-}
+  margin: 0; }
 
-.padding-h2 {
-  padding-top: 0.5em;
-}
+.padding-large-y {
+  padding-top: 3em;
+  padding-bottom: 3em; }
 
 .relative {
-  position: relative;
-}
+  position: relative; }
 
 .row.fx-row {
-  margin: auto 0;
-}
+  margin: auto 0; }
 
 .shadow-text {
-  text-shadow: -1px -3px 6px #000;
-}
+  text-shadow: -1px -3px 6px #000; }
 
 .top-space {
-  margin-top: 3.5em !important;
-}
+  padding-top: 3.5em; }
 
 .text-medium {
-  font-size: 4.5em;
-}
+  font-size: 4.5em; }
 
 .text-center {
-  text-align: center;
-}
+  text-align: center; }
 
 .white-text {
-  color: white;
-}
+  color: white; }

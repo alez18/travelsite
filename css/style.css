@@ -17,10 +17,10 @@
   color: #41768e; }
 
 .grey-bg {
-  background-color: #D7DADB; }
+  background-color: #eee; }
 
 .grey-text {
-  color: #D7DADB; }
+  color: #eee; }
 
 .dark-grey-bg {
   background-color: #454549; }
@@ -99,8 +99,8 @@ html, body {
   width: 100%;
   top: 45%; }
 
-.img-box img {
-  padding-top: 15px; }
+.card-img img {
+  width: 100%; }
 
 .navigator {
   font-family: 'PT Sans', sans-serif;
